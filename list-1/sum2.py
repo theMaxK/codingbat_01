@@ -1,6 +1,10 @@
 def sum2(nums):
-    result = nums[0] + nums[1]
-    return result 
+    if len(nums) >= 2: 
+        result = nums[0] + nums[1]
+        return result 
+    else: 
+        result = nums[0]
+        return result 
     
 
 
